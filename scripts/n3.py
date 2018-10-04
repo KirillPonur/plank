@@ -17,7 +17,7 @@ def f(x): #x-- градусы
 x=f(l)
 print(x)
 plt.plot(f(l),V,'r.')
-plt.ylabel('$V_з$,А',fontsize=16) 
+plt.ylabel('$V_з$,мА',fontsize=16) 
 plt.xlabel('$\\nu, 10^{14}$Гц',fontsize=12)
 # yerror=V*0.01
 # # plt.errorbar(yerr=yerror) #Погрешности
@@ -28,5 +28,5 @@ h=6.28*k*10**-16*e
 plt.plot(x,k*x+b)
 print('Постоянная Планка h=',h) #Херня конечно, но вдруг так и есть
 plt.grid() 
-# plt.savefig('n3.pdf')
+plt.savefig('n3.pdf')
 plt.show()

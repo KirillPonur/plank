@@ -2,7 +2,7 @@
 
 \begin{document}
 
-\def\labauthors{Сарафанов Ф.Г., Понур К.А., Сидоров Д. Батькович}
+\def\labauthors{Сарафанов Ф.Г., Понур К.А., Сидоров Д.А.}
 \def\labgroup{430}
 \def\labnumber{1}
 \def\labtheme{Исследование фотоэффекта и измерение постоянной Планка}
@@ -97,26 +97,60 @@
 В этом методе необходимо достаточно точно знать значения частот $\nu_1$ и $\nu_2$. Точность определения частот по градуировочному графику монохроматора в случае применения источника белого света (лампа накаливания) невелика, поэтому необходимо использовать источник с линейчатым спектром, для которого частоты излучения измерены с высокой точностью. В данной работе применена ртутная лампа ДРШ-250. 
 
 \subsection{Эксперимент}
-\section{Задание 1}
+Для того, чтобы установить связь между шкалой монохроматора УМ-2 будем пользоваться рис. \ref{fig:8}. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{scripts/1500}
-	\caption{$1500^{\circ}$}
-	\label{fig:3}
+	\includegraphics[scale=1]{scripts/podgon.pdf}
+	\caption{}
+	\label{fig:8}
+\end{figure}
 
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.8]{scripts/2000}
-	\caption{$2000^{\circ}$}
-	\label{fig:4}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.8]{scripts/2500}
-	\caption{$2500^{\circ}$}
-	\label{fig:5}
-\end{figure}
+\section{Задание 1}
+\begin{center}
+    \begin{figure}[H]
+        \begin{minipage}{0.49\linewidth}
+            \includegraphics[width=\linewidth]{scripts/1500} 
+            \vspace{-30pt}
+            \label{fig:3}
+            \captionof{subfigure}{} 
+        \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \includegraphics[width=\linewidth]{scripts/2000} 
+        \vspace{-30pt}
+        \label{fig:4}
+        \captionof{subfigure}{} 
+    \end{minipage}
+    \end{figure}
+\end{center}
+\begin{center}
+    \begin{figure}[H]
+
+            \includegraphics[scale=0.6]{scripts/1500} 
+            \vspace{-30pt}
+            \label{fig:3}
+            \captionof{subfigure}{} 
+
+    \end{figure}
+\end{center}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[scale=0.8]{scripts/1500}
+% 	\caption{$1500^{\circ}$}{}
+% 	\label{fig:3}
+
+% \end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[scale=0.8]{scripts/2000}
+% 	\caption{$2000^{\circ}$}
+% 	\label{fig:4}
+% \end{figure}
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[scale=0.8]{scripts/2500}
+% 	\caption{$2500^{\circ}$}
+% 	\label{fig:5}
+% \end{figure}
 
 \subsection{Задание 2}
 \begin{figure}[H]
@@ -125,7 +159,7 @@
 	\caption{}
 	\label{fig:6}
 \end{figure}
-
+Из рис. \ref{fig:6} мы можем определить красную границу фотоэффекта. Из него видно, что фототока нет при частоте, меньшей $\approx 2.9\cdot10^{14}$ Гц. 
 \subsection{Задание 3}
 \begin{figure}[H]
 	\centering
@@ -133,4 +167,6 @@
 	\caption{}
 	\label{fig:7}
 \end{figure}
+Постоянную планка мы сможем найти из рис.\ref{fig:7}. Из \ref{eq:3} следует, что $\frac he$,равняется тангенсу угла наклона прямой. Возьмем из справочника заряд электрона $ e=1.60217733\cdot10^{-19}$ Кл и получаем, значение постоянной Планка $h=8.36\cdot10^{-34}\text{Дж}\cdot\text{с}$.
+
 \end{document}
