@@ -12,7 +12,8 @@ def f(x): #x-- градусы
     return f
 
 
-# plt.plot(f(l),F)
+# plt.plot(l,V)
+# plt.show()
 x=f(l)
 print(x)
 plt.plot(f(l),V,'r.')
@@ -23,8 +24,9 @@ plt.xlabel('$\\nu, 10^{14}$Гц',fontsize=12)
 e=1.60217662*10**-19 #Кулона
 k= 8.307
 b= -25.26
-h=k*10**-16*e
+h=6.28*k*10**-16*e
 plt.plot(x,k*x+b)
 print('Постоянная Планка h=',h) #Херня конечно, но вдруг так и есть
 plt.grid() 
+# plt.savefig('n3.pdf')
 plt.show()

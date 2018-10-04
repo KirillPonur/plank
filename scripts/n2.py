@@ -11,9 +11,10 @@ def f(x): #x-- градусы
     p2=-9.204*10**(-5)
     p3 =7.457
     f = p1*x**2 + p2*x + p3
-    return 6.28*f
+    return f
 
-
+plt.plot(l,I)
+plt.show()
 c=299792458
 freq=f(l)
 plt.figure('Задание 5.2')
@@ -23,4 +24,5 @@ plt.ylabel('$I_ф$,мА',fontsize=12)
 plt.xlabel('$\\nu,10^{14}$Гц',fontsize=12)# 
 plt.yticks([i for i in range(0,50,4)]) 
 plt.grid () 
+# plt.savefig('n2.pdf')
 plt.show()
