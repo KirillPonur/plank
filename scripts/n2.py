@@ -12,7 +12,7 @@ def f(x): #x-- градусы
     p3 =7.457
     f = p1*x**2 + p2*x + p3
     return f
-x=np.arange(200,2400,1)
+x=np.arange(200,3500,1)
 plt.plot(x,f(x))
 plt.grid () 
 plt.ylabel('$\\nu$,$10^{14}$ Гц',fontsize=12) 
